@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: url('noise.png');
+}
+
+a {
+    text-decoration: none;
+    color: #0969da;
+}
+
+.header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #24292f;
+    margin-bottom: 25px;
+    box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.37);
+}
+
+.header__search {
+    width: 640px;
+    padding: 0px 20px;
+    display: flex;
+    gap: 5px;
+}
+
+.header__search input {
+    flex: 4;
+    color: #fff;
+    background: #24292f;
+    border: 1px solid #57606a;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.header__search button {
+    flex: 1;
+    color: #fff;
+    background: #1c1d1f;
+    border: 1px solid #57606a;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.header__search button:hover {
+    background: #24292f;
+}
+
+.repository {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-left: 15px;
+    border-radius: 5px;
+    background: #fff;
+    list-style: none;
+    box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.37);
+}
+
+.repository__name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.repository__description {
+    max-height: 63px;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.repository__topics {
+
+    width: 550px;
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+}
+
+.repository__topic {
+    margin: 4px 2px;
+    padding: 5px 10px 8px;
+    background-color: #ddf4ff;
+    border: none;
+    border-radius: 100vmax;
+}
+
+.repository__topic:hover {
+    color: #fff;
+    background: #0969da;
+}
+
+.repository__details {
+    display: flex;
+    gap: 10px;
+    color: #57606a;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.repository__details .stargazers {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.repository__details svg {
+    filter: invert(37%) sepia(3%) saturate(1534%) hue-rotate(171deg) brightness(97%) contrast(94%);
+}
+
+.pagination__container {
+    display: flex;
+    justify-content: center;
+}
+
+
+@media(max-width: 700px) {
+    .repository {
+        width: 95vw;
+    }
+
+    .repository__topics {
+        width: 100%;
+    }
+}
