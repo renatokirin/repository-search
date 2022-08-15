@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/repository-search/static/css/main.1de135be.css",
+    "main.js": "/repository-search/static/js/main.9ab809b5.js",
+    "static/media/noise.png": "/repository-search/static/media/noise.bae85d13ab3ab72660d8.png",
+    "index.html": "/repository-search/index.html",
+    "main.1de135be.css.map": "/repository-search/static/css/main.1de135be.css.map",
+    "main.9ab809b5.js.map": "/repository-search/static/js/main.9ab809b5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1de135be.css",
+    "static/js/main.9ab809b5.js"
+  ]
+}
