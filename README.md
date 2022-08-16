@@ -8,6 +8,10 @@ A ReactJS based app that allows you to search GitHub repositories.
 
 In the project directory, you can run:
 
+### `npm install`
+
+Installs required depndencies.
+
 ### `npm start`
 
 Runs the app in the development mode.\
