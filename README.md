@@ -1,4 +1,14 @@
 # Github repository search
+
+
+#### There is a newer version built with Redux
+[github-repository-search](https://github.com/renatokirin/github-repository-search)
+
+
+
+#
+
+
 A ReactJS based app that allows you to search GitHub repositories.
 [Site link](https://renatokirin.github.io/repository-search/)
 ![image](https://user-images.githubusercontent.com/105893349/184711968-099d692e-618b-4459-a6d2-53907de9e8d1.png)
